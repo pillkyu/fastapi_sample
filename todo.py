@@ -9,7 +9,7 @@ todo_list = []
 async def add_todo(todo: Todo) -> dict:
     todo_list.append(todo)
     return {
-        "msg" : "todo added successfully"
+        "msg" : "totodo added successfully"
     }
 
 @todo_router.get("/todo")
